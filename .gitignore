@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Environment / secrets - NEVER commit real secrets
+.env
+.env.local
+.env.*.local
+
+# SQLite database files (persistent data)
+database/*.sqlite
+database/*.sqlite-shm
+database/*.sqlite-wal
+
+# Legacy xlsx user store (migrated to SQLite; no longer kept in repo)
+database/*.xlsx
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Misc
+*.local
