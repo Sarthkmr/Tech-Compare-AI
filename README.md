@@ -2,71 +2,110 @@
 
 ## 📌 Project Overview
 
-**Mark 85 – V2** is a project developed as part of an academic/technical project to demonstrate practical implementation of software development concepts.
+**Mark 85 – V2** is a technical project developed to demonstrate the practical implementation of modern software development concepts.
 
-The project focuses on building a functional application with a clear structure, user interaction, and practical implementation.
+The project focuses on building a functional application with a structured interface, application logic, and deployment-ready configuration.
 
 ## 🎯 Objectives
 
 * Develop a functional and user-friendly application.
-* Apply programming and software development concepts in a practical project.
-* Organize the project with a clean and maintainable structure.
-* Gain hands-on experience in developing and testing an application.
+* Apply software development concepts in a practical project.
+* Maintain a structured and organized project architecture.
+* Gain practical experience in application development and deployment.
+* Demonstrate the implementation of a real-world technical project.
 
 ## 🛠️ Technologies Used
 
-* Programming / Application Development
-* Frontend technologies
-* Backend / Application Logic
-* Database or data handling, where applicable
+* Frontend Development
+* JavaScript
+* Node.js
+* Package Management
+* Vite
+* Deployment Configuration
+* Web Application Development
 
-> The exact technologies may vary depending on the modules included in this version of the project.
+## 📂 Project Files
 
-## 📂 Project Structure
+The repository contains the publicly shareable components of the project.
+
+### Available Files / Components
 
 ```text
 Mark-85-V2/
 │
-├── Source Files/
-├── Assets/
-├── Configuration Files/
-├── Documentation/
+├── deployment/
+├── Dockerfile
+├── index.*
+├── package.json
+├── package-lock.json
+├── railway.*
+├── vendor/
+├── vite.config.*
 └── README.md
 ```
+
+### 🔐 Confidential / Restricted Files
+
+Some project files, configurations, implementation details, and supporting resources have **not been included in this public repository** due to security, confidentiality, and deployment-related considerations.
+
+These may include:
+
+* Private configuration files
+* Environment variables
+* API keys and credentials
+* Sensitive deployment configurations
+* Internal project resources
+* Other files that are not intended for public distribution
+
+Sensitive credentials and environment variables should **never be committed to a public GitHub repository**.
 
 ## ⚙️ Installation
 
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Sarthkmr/Tech-Compare-AI.git
 ```
 
 ### 2. Open the project folder
 
 ```bash
-cd Mark-85-V2
+cd Tech-Compare-AI
 ```
 
-### 3. Install the required dependencies
+### 3. Install dependencies
 
-Install the dependencies required by the project/environment.
+```bash
+npm install
+```
 
 ### 4. Run the project
 
-Run the main application file or start the project using the appropriate development environment.
+```bash
+npm run dev
+```
+
+The application can then be accessed through the local development URL provided by Vite.
 
 ## 🚀 Features
 
-* Simple and user-friendly interface
-* Structured project implementation
-* Practical application of programming concepts
-* Organized source code and project files
-* Designed for academic and learning purposes
+* User-friendly application interface
+* Structured frontend implementation
+* Modular project organization
+* Package-based dependency management
+* Vite-based development environment
+* Deployment-ready project structure
+* Practical implementation of web development concepts
+
+## 📦 Deployment
+
+The project includes deployment-related configuration and supporting files.
+
+Some deployment configurations have been intentionally excluded from the public repository to protect sensitive information and project-specific credentials.
 
 ## 📸 Project Screenshots
 
-Screenshots and output images can be added here to demonstrate the working application.
+Screenshots and application output can be added to this section to demonstrate the working project.
 
 ```text
 screenshots/
@@ -77,22 +116,26 @@ screenshots/
 
 ## 📚 Learning Outcomes
 
-Through this project, the following practical skills were developed:
+This project provided practical experience in:
 
-* Application development
-* Problem solving
-* Project organization
+* Web application development
+* Frontend development
+* Project structure and organization
+* Package management
+* Application configuration
+* Deployment concepts
 * Debugging and testing
-* Practical implementation of technical concepts
-* Git and GitHub project management
+* Git and GitHub
+* Secure handling of project configuration
 
 ## 🔮 Future Improvements
 
-* Improve the user interface and overall design.
+* Improve the user interface and user experience.
 * Add additional functionality.
-* Improve performance and reliability.
-* Add better error handling.
-* Deploy the application for real-world use.
+* Improve application performance.
+* Implement additional security measures.
+* Improve deployment and production configuration.
+* Expand the application's capabilities.
 
 ## 👨‍💻 Author
 
@@ -102,4 +145,6 @@ B.Tech – Artificial Intelligence & Data Science
 
 ## 📄 License
 
-This project is created for educational and learning purposes.
+This project is provided for educational and technical purposes.
+
+Some project components have been intentionally excluded from the public repository for security and confidentiality reasons.
