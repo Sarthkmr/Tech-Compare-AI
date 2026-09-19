@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: techcompare-ai
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: BACKEND_PORT
+        value: 5000
+      - key: FRONTEND_ORIGIN
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: SMTP_HOST
+        sync: false
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASS
+        sync: false
+      - key: SMTP_FROM
+        sync: false
+      - key: DB_PATH
+        value: /var/data/app.sqlite
+      - key: DB_DIR
+        value: /var/data
+    disk:
+      name: sqlite-data
+      mountPath: /var/data
+      sizeGB: 1
